@@ -1,0 +1,91 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.artist-photo {
+  width: 100px;
+  height: 100px;
+}
+
+.result-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.result-list img {
+  width: 100px;
+  height: 100px;
+}
+
+.background {
+  height: 100vh;
+  width: 100vw;
+  background: url('https://www.belenzon.com/wp-content/uploads/2018/01/slider01.jpg') no-repeat center center fixed;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-column {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 15%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.title {
+  position: absolute;
+  top: 0;
+  color: black;
+  text-align: center;
+  margin-top: 10%;
+  font-size: 2.5em;
+}
+
+#artist {
+  width: 400px;
+  height: 30px;
+  font-size: 1.5em;
+  margin-bottom: 4%;
+}
+
+#artist::placeholder {
+  text-align: center;
+}
+/* pink-red = #FF5254
+  blue-gray = #3C94DF
+*/
+.form-column input[type='submit'] {
+  background-color: #3C94DF;
+  width: 55%;
+  height: 30px;
+  align-self: center;
+  color: white;
+  font-size: 1.2em;
+  border: none;
+}
+
+.album-footer {
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.result-list {
+  width: 30%;
+}

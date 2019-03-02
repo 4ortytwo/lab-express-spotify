@@ -1,0 +1,10 @@
+<h1>Albums</h1>
+<ul>
+    {{#each data.body.items}}
+    <li class='result-list'>
+    {{name}}
+    <img src='{{images.0.url}}' alt='{{name}}'>
+    </li>
+    <a href="/listen/{{id}}">View Tracks</a>
+    {{/each}}
+</ul>
